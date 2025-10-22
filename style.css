@@ -1,0 +1,133 @@
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+body {
+background-color: blanchedalmond;
+font-family: cursive, sans-serif;
+}
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+ul {
+    font-size: 18px;
+}
+li {
+    margin-bottom: 10px;
+}  
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
+}
+
+
+nav {
+    background-color: peru;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: darkred;
+}
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: wheat;
+    border-radius: 8px;
+}
+section h2 {
+    color: sienna;
+}
+
+
+button {
+    background-color: peru;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: darkred;
+}
+form {
+    margin: 20px 0;
+}
+h1 {
+    color: sienna;
+}
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label {
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: peru;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+h4 {
+    text-align: center;
+}  
+h4 {
+    color: sienna;
+}
+border {
+    border: 2px solid peru;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+h5 {
+    text-align: center;
+}
+h5 {
+    color: sienna;
+}
