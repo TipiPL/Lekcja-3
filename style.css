@@ -120,7 +120,7 @@ h4 {
     color: sienna;
 }
 border {
-    border: 2px solid peru;
+    border: 2px solid rgb(39, 228, 140);
     padding: 10px;
     border-radius: 5px;
     margin: 20px 0;
@@ -130,4 +130,102 @@ h5 {
 }
 h5 {
     color: sienna;
+}
+
+h1,
+h2{
+
+    animation: animacja 2s infinite;
+}
+
+@keyframes animacja {
+
+    0% {
+        color:red;
+    
+    }
+    50% {
+        color:blue;
+    
+    }
+
+        
+    75% {
+        color:green;
+    
+    }
+    100% {
+        color:red;
+    
+    }
+    
+}
+h3,
+h4{
+
+    animation: animacja2 3s infinite;
+}
+
+@keyframes animacja2 {
+
+    0% {
+        color:yellow;
+    
+    }
+    50% {
+        color:pink;
+    
+    }
+
+        
+    75% {
+        color:purple;
+    
+    }
+    100% {
+        color:yellow;
+    
+    }
+    
+}
+h1,
+h2,
+img,
+h3{
+
+    animation: animacja3 5s infinite;
+}
+@keyframes animacja3 {
+
+    0% {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        color:red;
+        transform: unset;
+        transform: rotate(0.5turn);
+        transform: scale(2, 0.5);
+        transform: initial;
+    
+    }
+    50% {
+        transform: rotateY(10deg)
+        
+    }
+
+        
+    75% {
+        transform: skewY(1.07rad);
+        color:blue;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        transform: scaleY(0.5);
+    
+    }
+    100% {
+        transform: perspective(17px);
+        color:red;
+        transform: rotate3d(1, 2, 3, 10deg);
+        transform: perspective(500px) translate3d(10px, 0, 20px) rotateY(30deg);
+
+    
+    }
+    
 }
